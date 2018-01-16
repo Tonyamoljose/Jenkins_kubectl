@@ -8,3 +8,6 @@ Jenkins with kubectl, to manage a kubernetes cluster from Jenkins.
 * Kubectl: v1.7.12
 * Docker-ce: v17.04.0
 * Docker-compose: v1.14.0
+
+# Docker Pull Command
+```docker pull daviddang/jenkins-docker-kubectl```
