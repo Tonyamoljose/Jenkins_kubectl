@@ -2,6 +2,8 @@ FROM jenkins/jenkins:lts
 
 MAINTAINER David Dang <quyettien.ictu@gmail.com>
 
+EXPOSE 8080 50000
+
 ENV DOCKER_VERSION=17.04.0-ce DOCKER_COMPOSE_VERSION=1.14.0 KUBECTL_VERSION=v1.7.12
 
 # Use Root to setup kubectl, docker-ce, docker-compose
